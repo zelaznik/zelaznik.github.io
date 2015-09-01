@@ -1,0 +1,13 @@
+.info-row {
+  display: inline;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 80px;
+}
+
+.info-row img {
+  width: 100px;
+  height: 100px;
+}
