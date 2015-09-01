@@ -11,3 +11,23 @@
   width: 100px;
   height: 100px;
 }
+
+.projects h4 {
+  font-weight: bold;
+}
+
+.projects img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  padding: 0px 30px 0px 0px;
+}
+
+.projects p {
+  text-align: justify;
+}
+
+.project-links .row {
+  text-align: center;
+  display: inline;
+}
