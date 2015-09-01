@@ -90,12 +90,12 @@
 		    <div class="row projects">
           <div class="col-md-12">
             <center>
-              <h2>Cosmo Connect
-              <small>
-                <a href="http://www.cosmo-connect.com" target="_blank">Live</a> &times;
-                <a href="http://www.github.com/zelaznik/cosmo_connect" target="_blank">GitHub</a>
-              </small>
-              </h2>
+              <h3>Cosmo Connect
+                <small>
+                  <a href="http://www.cosmo-connect.com" target="_blank">Live</a> &times;
+                  <a href="http://www.github.com/zelaznik/cosmo_connect" target="_blank">GitHub</a>
+                </small>
+              </h3>
             </center>
           </div>
           <div class="span4">
@@ -106,11 +106,57 @@
                 </a>
                 <p>Cosmo-Connect is the dating site about nothing.  Inspired by OkCupid, with a throwback to Seinfeld.  The website is built using Ruby on Rails, PostgreSQL, Javascript, and Backbone, with bootstrap and custom styling.  The database schema is fully atomic.  Answers to multiple choice questions such as gender and religion are stored as numbers rather than text.  Materialized views keep a cache of much of the JSON, which shortens the time needed to compile HTML and Javascript.  Postgres triggers make sure that all of the corresponding records in companion tables are kept consistent.  Users can look for men, women, or both, thanks to many-to-many relationships.  As always, passwords are hashed, using BCrypt.</p>
               </div>
+            </div>
+          </div>
+  		  </div>
+
+
+      <div class="row projects">
+        <div class="col-md-12">
+          <center>
+            <h3>Frozen Dictionary
+              <small>
+                <a href="http://www.github.com/zelaznik/frozen_dict" target="_blank">GitHub</a>
+              </small>
+            </h3>
+          </center>
+        </div>
+        <div class="span4">
+          <div class="container">
+            <div class="row">
+              <a href="http://www.github.com/zelaznik/frozen_dict" target="_blank">
+                <img src="img/frozen-dict.jpg" />
+              </a>
+              <p>Python&#39;s support for immutable objects is inconsistent.  Immutable objects offer advantages such as being hashable and thread safe.  Immutable objects don&#39;t have to be copied before being passed to a new thread.  Immutable objects can be used as keys to a dictionary or items in a set.  Python&#39;s built in library offers immutable arrays, called tuples, and immutable sets, called frozen sets.  There is no frozen dictionary, or hash lookup.  This library fixes that.  The implementation is done in Cython, meaning the library is compiled to pure-C, so the lookup time is within 10 ns of a built in dictionary.  A recursive add-in can do a deep-freeze of sets, arrays, and mappings, which is perfect for freezing JSON data, not normally possible in Python.</p>
+            </div>
           </div>
         </div>
-		  </div>
+      </div>
+
+
+      <div class="row projects">
+        <div class="col-md-12">
+          <center>
+            <h3>Ruby Chess
+              <small>
+                <a href="http://www.github.com/zelaznik/frozen_dict" target="_blank">GitHub</a>
+              </small>
+            </h3>
+          </center>
+        </div>
+        <div class="span4">
+          <div class="container">
+            <div class="row">
+              <a href="http://www.github.com/zelaznik/chess" target="_blank">
+                <img src="img/chess.jpg" />
+              </a>
+              <p>Chess game in Ruby console.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
-	<p style="text-align:center; margin-top:50px;"><a href="#contact" class="btn btn-success btn-large">Contact</a></p>
 </div>
 
 <div id="info" class="container">
