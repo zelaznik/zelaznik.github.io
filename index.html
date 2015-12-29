@@ -52,7 +52,7 @@
 			</div>
 			<div class="span7 bio" style="padding:15px;">
 				<h1>Steve Zelaznik</h1>
-				<p class="lead">I&#39;m a current software engineer, former journalist, and sporadic blogger.</p>
+				<p class="lead">Software engineer, lover of math, sporadic blogger.</p>
 				<p>When I&#39;m not working, I&#39;m probably running, solving Sudokus, putting forth an honest effort at swing dancing, or embarrassing my mother with my karaoke habit.</p>
 				<h3>I like puzzles, and that drew me to this field.</h3>
 				<p style="margin-top:50px;"><a href="#info" class="btn btn-success btn-large">Know More</a></p>
@@ -111,6 +111,36 @@
   		  </div>
 
 
+        <div class="row projects">
+          <div class="col-md-12">
+            <center>
+              <h3>Javascript Minesweeper
+                <small>
+                  <a href="http://competitive-minesweeper.herokuapp.com" target="_blank">Live</a> &times;
+                  <a href="http://www.github.com/zelaznik/minesweeper_js" target="_blank">GitHub</a>
+                </small>
+              </h3>
+            </center>
+          </div>
+          <div class="span4">
+            <div class="container">
+              <div class="row">
+                <a href="http://competitive-minesweeper.herokuapp.com" target="_blank">
+                  <img src="img/minesweeper.jpg" />
+                </a>
+                <p>
+                  Pixel perfect clone of the classic Windows logic game, implemented in JavaScript.  All the standard features are available such as dual-clicking in order to clear the adjacent cells of mines.  Touch responsive: when holding the mouse down, a user can see the adjacent mines press inward before clicking.  The yellow face reacts to events just like the classic Windows version.
+                </p>
+
+                <p>
+                  Separation of concerns.  The board is instantiated in a separate class and only accessible through a closure.  Only one square is revealed at a time.  The game communicates to the view through callback functions, which makes this game scalable.  Includes facebook and open graph metatags to make sharing on social media easier.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       <div class="row projects">
         <div class="col-md-12">
           <center>
@@ -132,7 +162,6 @@
           </div>
         </div>
       </div>
-
 
       <div class="row projects">
         <div class="col-md-12">
