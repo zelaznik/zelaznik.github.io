@@ -4,8 +4,15 @@
     Competitive Minesweeper GitHub
   </title>
   <body>
+    <h1>The Homepage Has Moved.</h1>
+    <p>In 5 seconds you will be redirected to: </p>
+    <a href="http://zelaznik.herokuapp.com">http://zelaznik.herokuapp.com</a>
     <script>
-      window.location = "http://zelaznik.herokuapp.com";
+    document.addEventListener("DOMContentLoaded", function(event) {
+      setTimeout(function() {
+          window.location = "http://zelaznik.herokuapp.com";        
+      }, 5000);
+    });
     </script>
   </body>
 </html>
